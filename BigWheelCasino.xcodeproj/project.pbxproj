@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		185FE5F324C5612000DEFE49 /* ForgetPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185FE5F224C5612000DEFE49 /* ForgetPasswordViewController.swift */; };
+		185FE5FB24C56A0F00DEFE49 /* TutorialCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185FE5FA24C56A0F00DEFE49 /* TutorialCollectionViewCell.swift */; };
+		185FE5FD24C56EA200DEFE49 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 185FE5FC24C56EA200DEFE49 /* Home.storyboard */; };
+		185FE5FF24C56F9100DEFE49 /* ChangePasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185FE5FE24C56F9100DEFE49 /* ChangePasswordViewController.swift */; };
 		18C2B39324BD81AD00632C82 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C2B39224BD81AD00632C82 /* AppDelegate.swift */; };
 		18C2B39524BD81AD00632C82 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C2B39424BD81AD00632C82 /* SceneDelegate.swift */; };
 		18C2B39724BD81AD00632C82 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C2B39624BD81AD00632C82 /* ViewController.swift */; };
@@ -15,6 +19,24 @@
 		18C2B39F24BD81AE00632C82 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18C2B39D24BD81AE00632C82 /* LaunchScreen.storyboard */; };
 		18C2B3AA24BD81AE00632C82 /* BigWheelCasinoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C2B3A924BD81AE00632C82 /* BigWheelCasinoTests.swift */; };
 		18C2B3B524BD81AE00632C82 /* BigWheelCasinoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C2B3B424BD81AE00632C82 /* BigWheelCasinoUITests.swift */; };
+		18C2B3C824BD81F300632C82 /* UIView+Inspectable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C2B3C324BD81F200632C82 /* UIView+Inspectable.swift */; };
+		18C2B3C924BD81F300632C82 /* UIApplication+Hierarchy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C2B3C424BD81F200632C82 /* UIApplication+Hierarchy.swift */; };
+		18C2B3CA24BD81F300632C82 /* Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C2B3C524BD81F300632C82 /* Util.swift */; };
+		18C2B3CB24BD81F300632C82 /* UItableView+CollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C2B3C624BD81F300632C82 /* UItableView+CollectionView.swift */; };
+		18C2B3CC24BD81F300632C82 /* UIViewController+Storyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C2B3C724BD81F300632C82 /* UIViewController+Storyboard.swift */; };
+		18C2B3EC24BD822200632C82 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C2B3D224BD822200632C82 /* Reachability.swift */; };
+		18C2B3ED24BD822200632C82 /* ApiConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C2B3D424BD822200632C82 /* ApiConstant.swift */; };
+		18C2B40424BD829300632C82 /* UIColor+AppColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C2B40124BD829300632C82 /* UIColor+AppColor.swift */; };
+		18C2B40524BD829300632C82 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C2B40224BD829300632C82 /* String.swift */; };
+		18C2B42024BD82E700632C82 /* Font.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C2B41224BD82E700632C82 /* Font.swift */; };
+		18C2B42524BD832400632C82 /* Color.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18C2B42424BD832400632C82 /* Color.xcassets */; };
+		18C2B42924BD8B8900632C82 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C2B42824BD8B8900632C82 /* BaseViewController.swift */; };
+		18C2B42B24BD8B9B00632C82 /* TutorialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C2B42A24BD8B9B00632C82 /* TutorialViewController.swift */; };
+		18C2B42D24BD8BA800632C82 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C2B42C24BD8BA800632C82 /* LoginViewController.swift */; };
+		18C2B42F24BD8BB500632C82 /* DashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C2B42E24BD8BB500632C82 /* DashboardViewController.swift */; };
+		18C2B43624BD8D1600632C82 /* Authentication.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18C2B43524BD8D1600632C82 /* Authentication.storyboard */; };
+		18C2B43824BD8D2500632C82 /* Tab.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18C2B43724BD8D2500632C82 /* Tab.storyboard */; };
+		18C2B43A24BD8D3400632C82 /* Base.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18C2B43924BD8D3400632C82 /* Base.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +57,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		185FE5EA24C5577700DEFE49 /* Oxanium-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Oxanium-Bold.ttf"; sourceTree = "<group>"; };
+		185FE5EB24C5577700DEFE49 /* Oxanium-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Oxanium-Light.ttf"; sourceTree = "<group>"; };
+		185FE5EC24C5577700DEFE49 /* Oxanium-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Oxanium-Medium.ttf"; sourceTree = "<group>"; };
+		185FE5ED24C5577700DEFE49 /* Oxanium-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Oxanium-Regular.ttf"; sourceTree = "<group>"; };
+		185FE5EE24C5577700DEFE49 /* Pacifico-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pacifico-Regular.ttf"; sourceTree = "<group>"; };
+		185FE5EF24C5577700DEFE49 /* Oxanium-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Oxanium-ExtraLight.ttf"; sourceTree = "<group>"; };
+		185FE5F024C5577700DEFE49 /* Oxanium-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Oxanium-ExtraBold.ttf"; sourceTree = "<group>"; };
+		185FE5F124C5577700DEFE49 /* Oxanium-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Oxanium-SemiBold.ttf"; sourceTree = "<group>"; };
+		185FE5F224C5612000DEFE49 /* ForgetPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgetPasswordViewController.swift; sourceTree = "<group>"; };
+		185FE5FA24C56A0F00DEFE49 /* TutorialCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorialCollectionViewCell.swift; sourceTree = "<group>"; };
+		185FE5FC24C56EA200DEFE49 /* Home.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
+		185FE5FE24C56F9100DEFE49 /* ChangePasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangePasswordViewController.swift; sourceTree = "<group>"; };
 		18C2B38F24BD81AD00632C82 /* BigWheelCasino.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BigWheelCasino.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18C2B39224BD81AD00632C82 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		18C2B39424BD81AD00632C82 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +83,24 @@
 		18C2B3B024BD81AE00632C82 /* BigWheelCasinoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BigWheelCasinoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		18C2B3B424BD81AE00632C82 /* BigWheelCasinoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BigWheelCasinoUITests.swift; sourceTree = "<group>"; };
 		18C2B3B624BD81AE00632C82 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18C2B3C324BD81F200632C82 /* UIView+Inspectable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Inspectable.swift"; sourceTree = "<group>"; };
+		18C2B3C424BD81F200632C82 /* UIApplication+Hierarchy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIApplication+Hierarchy.swift"; sourceTree = "<group>"; };
+		18C2B3C524BD81F300632C82 /* Util.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Util.swift; sourceTree = "<group>"; };
+		18C2B3C624BD81F300632C82 /* UItableView+CollectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UItableView+CollectionView.swift"; sourceTree = "<group>"; };
+		18C2B3C724BD81F300632C82 /* UIViewController+Storyboard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+Storyboard.swift"; sourceTree = "<group>"; };
+		18C2B3D224BD822200632C82 /* Reachability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
+		18C2B3D424BD822200632C82 /* ApiConstant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiConstant.swift; sourceTree = "<group>"; };
+		18C2B40124BD829300632C82 /* UIColor+AppColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+AppColor.swift"; sourceTree = "<group>"; };
+		18C2B40224BD829300632C82 /* String.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
+		18C2B41224BD82E700632C82 /* Font.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Font.swift; sourceTree = "<group>"; };
+		18C2B42424BD832400632C82 /* Color.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Color.xcassets; sourceTree = "<group>"; };
+		18C2B42824BD8B8900632C82 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		18C2B42A24BD8B9B00632C82 /* TutorialViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorialViewController.swift; sourceTree = "<group>"; };
+		18C2B42C24BD8BA800632C82 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		18C2B42E24BD8BB500632C82 /* DashboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardViewController.swift; sourceTree = "<group>"; };
+		18C2B43524BD8D1600632C82 /* Authentication.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Authentication.storyboard; sourceTree = "<group>"; };
+		18C2B43724BD8D2500632C82 /* Tab.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Tab.storyboard; sourceTree = "<group>"; };
+		18C2B43924BD8D3400632C82 /* Base.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Base.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +128,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		185FE5F424C5697D00DEFE49 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				185FE5F924C569FF00DEFE49 /* CollectionCell */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		185FE5F924C569FF00DEFE49 /* CollectionCell */ = {
+			isa = PBXGroup;
+			children = (
+				185FE5FA24C56A0F00DEFE49 /* TutorialCollectionViewCell.swift */,
+			);
+			path = CollectionCell;
+			sourceTree = "<group>";
+		};
 		18C2B38624BD81AD00632C82 = {
 			isa = PBXGroup;
 			children = (
@@ -99,11 +167,17 @@
 		18C2B39124BD81AD00632C82 /* BigWheelCasino */ = {
 			isa = PBXGroup;
 			children = (
+				185FE5F424C5697D00DEFE49 /* Cell */,
+				18C2B40724BD82E700632C82 /* Fonts */,
+				18C2B3CF24BD822200632C82 /* ApiService */,
+				18C2B3C224BD81D500632C82 /* Miss */,
+				18C2B42724BD8B7300632C82 /* ViewController */,
 				18C2B39224BD81AD00632C82 /* AppDelegate.swift */,
 				18C2B39424BD81AD00632C82 /* SceneDelegate.swift */,
 				18C2B39624BD81AD00632C82 /* ViewController.swift */,
 				18C2B39824BD81AD00632C82 /* Main.storyboard */,
-				18C2B39B24BD81AE00632C82 /* Assets.xcassets */,
+				18C2B43424BD8CE900632C82 /* Storyboard */,
+				18C2B42624BD832900632C82 /* Asset */,
 				18C2B39D24BD81AE00632C82 /* LaunchScreen.storyboard */,
 				18C2B3A024BD81AE00632C82 /* Info.plist */,
 			);
@@ -126,6 +200,134 @@
 				18C2B3B624BD81AE00632C82 /* Info.plist */,
 			);
 			path = BigWheelCasinoUITests;
+			sourceTree = "<group>";
+		};
+		18C2B3C224BD81D500632C82 /* Miss */ = {
+			isa = PBXGroup;
+			children = (
+				18C2B40224BD829300632C82 /* String.swift */,
+				18C2B40124BD829300632C82 /* UIColor+AppColor.swift */,
+				18C2B3C424BD81F200632C82 /* UIApplication+Hierarchy.swift */,
+				18C2B3C624BD81F300632C82 /* UItableView+CollectionView.swift */,
+				18C2B3C324BD81F200632C82 /* UIView+Inspectable.swift */,
+				18C2B3C724BD81F300632C82 /* UIViewController+Storyboard.swift */,
+				18C2B3C524BD81F300632C82 /* Util.swift */,
+			);
+			path = Miss;
+			sourceTree = "<group>";
+		};
+		18C2B3CF24BD822200632C82 /* ApiService */ = {
+			isa = PBXGroup;
+			children = (
+				18C2B3D124BD822200632C82 /* Rechability */,
+				18C2B3D324BD822200632C82 /* Constant */,
+				18C2B3D524BD822200632C82 /* Model */,
+			);
+			path = ApiService;
+			sourceTree = "<group>";
+		};
+		18C2B3D124BD822200632C82 /* Rechability */ = {
+			isa = PBXGroup;
+			children = (
+				18C2B3D224BD822200632C82 /* Reachability.swift */,
+			);
+			path = Rechability;
+			sourceTree = "<group>";
+		};
+		18C2B3D324BD822200632C82 /* Constant */ = {
+			isa = PBXGroup;
+			children = (
+				18C2B3D424BD822200632C82 /* ApiConstant.swift */,
+			);
+			path = Constant;
+			sourceTree = "<group>";
+		};
+		18C2B3D524BD822200632C82 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		18C2B40724BD82E700632C82 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				185FE5EA24C5577700DEFE49 /* Oxanium-Bold.ttf */,
+				185FE5F024C5577700DEFE49 /* Oxanium-ExtraBold.ttf */,
+				185FE5EF24C5577700DEFE49 /* Oxanium-ExtraLight.ttf */,
+				185FE5EB24C5577700DEFE49 /* Oxanium-Light.ttf */,
+				185FE5EC24C5577700DEFE49 /* Oxanium-Medium.ttf */,
+				185FE5ED24C5577700DEFE49 /* Oxanium-Regular.ttf */,
+				185FE5F124C5577700DEFE49 /* Oxanium-SemiBold.ttf */,
+				185FE5EE24C5577700DEFE49 /* Pacifico-Regular.ttf */,
+				18C2B41224BD82E700632C82 /* Font.swift */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		18C2B42624BD832900632C82 /* Asset */ = {
+			isa = PBXGroup;
+			children = (
+				18C2B42424BD832400632C82 /* Color.xcassets */,
+				18C2B39B24BD81AE00632C82 /* Assets.xcassets */,
+			);
+			path = Asset;
+			sourceTree = "<group>";
+		};
+		18C2B42724BD8B7300632C82 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				18C2B43324BD8BDA00632C82 /* Home */,
+				18C2B43224BD8BCE00632C82 /* Authentication */,
+				18C2B43124BD8BC400632C82 /* Base */,
+				18C2B43024BD8BB900632C82 /* Tutorial */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		18C2B43024BD8BB900632C82 /* Tutorial */ = {
+			isa = PBXGroup;
+			children = (
+				18C2B42A24BD8B9B00632C82 /* TutorialViewController.swift */,
+			);
+			path = Tutorial;
+			sourceTree = "<group>";
+		};
+		18C2B43124BD8BC400632C82 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				18C2B42824BD8B8900632C82 /* BaseViewController.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		18C2B43224BD8BCE00632C82 /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				18C2B42C24BD8BA800632C82 /* LoginViewController.swift */,
+				185FE5F224C5612000DEFE49 /* ForgetPasswordViewController.swift */,
+				185FE5FE24C56F9100DEFE49 /* ChangePasswordViewController.swift */,
+			);
+			path = Authentication;
+			sourceTree = "<group>";
+		};
+		18C2B43324BD8BDA00632C82 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				18C2B42E24BD8BB500632C82 /* DashboardViewController.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		18C2B43424BD8CE900632C82 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				18C2B43524BD8D1600632C82 /* Authentication.storyboard */,
+				18C2B43724BD8D2500632C82 /* Tab.storyboard */,
+				18C2B43924BD8D3400632C82 /* Base.storyboard */,
+				185FE5FC24C56EA200DEFE49 /* Home.storyboard */,
+			);
+			path = Storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,9 +434,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18C2B43624BD8D1600632C82 /* Authentication.storyboard in Resources */,
+				18C2B43A24BD8D3400632C82 /* Base.storyboard in Resources */,
+				18C2B43824BD8D2500632C82 /* Tab.storyboard in Resources */,
 				18C2B39F24BD81AE00632C82 /* LaunchScreen.storyboard in Resources */,
 				18C2B39C24BD81AE00632C82 /* Assets.xcassets in Resources */,
+				18C2B42524BD832400632C82 /* Color.xcassets in Resources */,
 				18C2B39A24BD81AD00632C82 /* Main.storyboard in Resources */,
+				185FE5FD24C56EA200DEFE49 /* Home.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,8 +467,25 @@
 			buildActionMask = 2147483647;
 			files = (
 				18C2B39724BD81AD00632C82 /* ViewController.swift in Sources */,
+				18C2B3CA24BD81F300632C82 /* Util.swift in Sources */,
+				18C2B3C824BD81F300632C82 /* UIView+Inspectable.swift in Sources */,
+				18C2B40424BD829300632C82 /* UIColor+AppColor.swift in Sources */,
+				185FE5F324C5612000DEFE49 /* ForgetPasswordViewController.swift in Sources */,
 				18C2B39324BD81AD00632C82 /* AppDelegate.swift in Sources */,
+				18C2B42924BD8B8900632C82 /* BaseViewController.swift in Sources */,
 				18C2B39524BD81AD00632C82 /* SceneDelegate.swift in Sources */,
+				18C2B42B24BD8B9B00632C82 /* TutorialViewController.swift in Sources */,
+				18C2B40524BD829300632C82 /* String.swift in Sources */,
+				18C2B42024BD82E700632C82 /* Font.swift in Sources */,
+				18C2B3CB24BD81F300632C82 /* UItableView+CollectionView.swift in Sources */,
+				18C2B3C924BD81F300632C82 /* UIApplication+Hierarchy.swift in Sources */,
+				185FE5FF24C56F9100DEFE49 /* ChangePasswordViewController.swift in Sources */,
+				18C2B42D24BD8BA800632C82 /* LoginViewController.swift in Sources */,
+				18C2B3EC24BD822200632C82 /* Reachability.swift in Sources */,
+				18C2B3CC24BD81F300632C82 /* UIViewController+Storyboard.swift in Sources */,
+				18C2B3ED24BD822200632C82 /* ApiConstant.swift in Sources */,
+				185FE5FB24C56A0F00DEFE49 /* TutorialCollectionViewCell.swift in Sources */,
+				18C2B42F24BD8BB500632C82 /* DashboardViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -366,7 +590,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -420,7 +644,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -436,6 +660,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = BigWheelCasino/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -443,7 +668,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.nidhi.com.BigWheelCasino;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -453,6 +678,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = BigWheelCasino/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -460,7 +686,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.nidhi.com.BigWheelCasino;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
